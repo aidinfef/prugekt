@@ -1,0 +1,29 @@
+*{
+  box-sizing: border-box;
+}
+nav{
+  background-color: black;
+}
+nav ul{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+body{
+  margin: 0;
+}
+nav a{
+  padding: 30px 100px;
+  display: inline-block;
+  color: aliceblue;
+  font-family:'Rubik Bubbles', cursive;;
+  text-decoration: none;
+}
+nav ul li:hover{
+  background-color: gray;
+}
+nav ul li a:hover{
+  color: black;
+}
