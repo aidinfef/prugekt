@@ -33,7 +33,17 @@ nav ul li a:hover{
 }
 header{
   background-image: url(./pg.jpg);
-  height: 100vh;
+  height: 50vh;
+  background-size: cover;
+  display: flex;
+  color: aliceblue;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about{
+  background-image: url(./gats.jfif);
+  height: 50vh;
   background-size: cover;
   display: flex;
   color: aliceblue;
